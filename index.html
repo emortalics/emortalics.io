@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Emortalics — Independent Game Studio</title>
+<meta name="description" content="Emortalics is an independent game studio by Jason Thomas, making dark, atmospheric games like Deadstock.">
+<meta property="og:title" content="Emortalics — Independent Game Studio">
+<meta property="og:description" content="Emortalics is an independent game studio by Jason Thomas, making dark, atmospheric games like Deadstock.">
+<meta property="og:image" content="assets/img/deadstock/feature.png">
+<meta name="theme-color" content="#08090c">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-root="" data-page="home">
+<header id="nav"></header>
+
+<section class="hero">
+  <div class="hero-bg pixel" style="background-image:url(assets/img/deadstock/hero.png)"></div>
+  <div class="wrap hero-inner">
+    <span class="eyebrow">Independent game studio</span>
+    <h1 class="hero-title" data-split>Emortalics</h1>
+    <div class="hero-bottom">
+      <div>
+        <p class="hero-tagline">Dark worlds. Sharp decisions. Games worth one more run. Made by Jason Thomas.</p>
+        <div class="btn-row">
+          <a class="btn primary" href="#games">Explore our games</a>
+          <a class="btn" href="devlog/">Read the devlog</a>
+        </div>
+      </div>
+      <a class="feature-card" href="games/deadstock/">
+        <img class="pixel" src="assets/img/deadstock/cover.png" alt="Deadstock cover">
+        <div>
+          <span class="label">Featured · Out now</span>
+          <h3>Deadstock</h3>
+          <p>A roguelite deckbuilder in a cursed cemetery. Free to play in your browser.</p>
+          <span class="btn small primary">Play now</span>
+        </div>
+      </a>
+    </div>
+  </div>
+  <span class="scroll-hint" aria-hidden="true"></span>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Roguelites</span><span>Deckbuilders</span><span>Dark fantasy</span><span>Browser games</span><span>Original soundtracks</span><span>Mobile</span><span>PC</span>
+    <span>Roguelites</span><span>Deckbuilders</span><span>Dark fantasy</span><span>Browser games</span><span>Original soundtracks</span><span>Mobile</span><span>PC</span>
+  </div>
+</div>
+
+<section class="section">
+  <div class="wrap spotlight">
+    <a class="spotlight-media reveal" href="games/deadstock/">
+      <img class="pixel" src="assets/img/deadstock/shot-battle.png" alt="Deadstock gameplay: the gravedigger facing the risen dead">
+      <span class="badge"><span class="dot"></span>Out now</span>
+    </a>
+    <div class="reveal d1">
+      <span class="eyebrow">Featured game</span>
+      <h2>Deadstock</h2>
+      <p class="lead">Every grave you dig is a card you can never play again.</p>
+      <p>You are the last gravedigger on Hollowmere Hill. After every fight, bury the dead to heal, or desecrate a card for power. But what you break comes back as an Echo, wearing the card you destroyed.</p>
+      <div class="stats">
+        <div class="stat"><b>40</b><span>cards</span></div>
+        <div class="stat"><b>7</b><span>nights</span></div>
+        <div class="stat"><b>3</b><span>endings</span></div>
+      </div>
+      <div class="btn-row">
+        <a class="btn primary" href="games/deadstock/play/">Play in browser</a>
+        <a class="btn" href="games/deadstock/">Learn more</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="games" style="padding-top:40px">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div><span class="eyebrow">Games</span><h2>Our games</h2></div>
+      <p>Small, focused games with big atmosphere. Play them free in your browser or grab them on your favourite store.</p>
+    </div>
+    <div class="games" data-render="games"></div>
+  </div>
+</section>
+
+<section class="section tight" id="play">
+  <div class="wrap">
+    <div class="play-band reveal">
+      <div class="bg pixel" style="background-image:url(assets/img/deadstock/chapel.png)"></div>
+      <span class="eyebrow">Play in your browser</span>
+      <h2>No download. Just click and dig.</h2>
+      <p>Deadstock runs right here on the site, on desktop or phone. Your progress saves automatically in your browser.</p>
+      <a class="btn primary" href="games/deadstock/play/">Play Deadstock now</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="youtube">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div><span class="eyebrow">Watch</span><h2>On YouTube</h2></div>
+      <p>Devlogs, trailers and behind-the-scenes looks at how the games are made.</p>
+    </div>
+    <div data-render="youtube"></div>
+  </div>
+</section>
+
+<section class="section" id="devlog" style="padding-top:40px">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div><span class="eyebrow">Devlog</span><h2>Latest news</h2></div>
+      <a class="btn" href="devlog/">All posts</a>
+    </div>
+    <div class="posts" data-render="posts" data-limit="3"></div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="wrap about">
+    <div class="reveal">
+      <span class="eyebrow">About</span>
+      <h2>A small studio with a dark streak.</h2>
+      <p class="big">Emortalics makes atmospheric games built around sharp choices and the pull of one more try.</p>
+      <p>Every game is designed to be easy to pick up, hard to put down, and playable wherever you are: in the browser, on PC or on your phone.</p>
+      <div class="founder">
+        <div class="avatar">JT</div>
+        <div><b>Jason Thomas</b><span>Founder &amp; game developer</span></div>
+      </div>
+    </div>
+    <div class="values">
+      <div class="value reveal d1"><span class="n">01</span><div><h3>Decisions that matter</h3><p>Every run should leave you with a choice you think about afterwards.</p></div></div>
+      <div class="value reveal d2"><span class="n">02</span><div><h3>Atmosphere first</h3><p>Hand-made art, original music, and worlds with a story to tell.</p></div></div>
+      <div class="value reveal d3"><span class="n">03</span><div><h3>Fair to players</h3><p>Name-your-own-price on itch, no forced ads, no pay-to-win.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" id="newsletter">
+  <div class="wrap">
+    <div class="newsletter reveal">
+      <div>
+        <span class="eyebrow">Newsletter</span>
+        <h2>Hear it first</h2>
+        <p>New games, early builds and devlogs, straight to your inbox. A few emails a year, never spam.</p>
+      </div>
+      <div>
+        <form class="subscribe" novalidate>
+          <input type="email" name="email" placeholder="you@email.com" aria-label="Email address" required>
+          <button class="btn primary" type="submit">Subscribe</button>
+        </form>
+        <p class="form-note"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer"></footer>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/site.js"></script>
+
+</body>
+</html>
